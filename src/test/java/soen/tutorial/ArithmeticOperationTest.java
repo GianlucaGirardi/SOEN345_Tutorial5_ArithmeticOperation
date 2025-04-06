@@ -3,7 +3,7 @@ package soen.tutorial;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
-// import static org.junit.Assert.fail;
+import static org.junit.Assert.fail;
 
 public class ArithmeticOperationTest {
 
@@ -16,7 +16,7 @@ public class ArithmeticOperationTest {
 		Integer actual = operations.addOrSub(2, 6);
 		Integer expected = 8;
 		assertEquals(expected, actual);
-		// fail("Must fail");
+		fail("Must fail");
 	}
     // @Test
     // public void testSub()
